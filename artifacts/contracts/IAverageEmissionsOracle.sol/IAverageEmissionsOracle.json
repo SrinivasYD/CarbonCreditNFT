@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IAverageEmissionsOracle",
+  "sourceName": "contracts/IAverageEmissionsOracle.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getAverageEmissionsFactor",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "emissionsFactor",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateAverageEmissionsFactor",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
